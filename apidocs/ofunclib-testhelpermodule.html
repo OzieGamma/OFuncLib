@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TestHelper - OFuncLib</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Oswald MASKENS">
+
+    <script src="https://code.jquery.com/jquery-1.8.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.8.23/jquery-ui.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="http://www.beglobal.me/OFuncLib/content/style.css" />
+    <script type="text/javascript" src="http://www.beglobal.me/OFuncLib/content/tips.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="{github-link}">github page</a></li>
+        </ul>
+        <h3 class="muted"><a href="http://www.beglobal.me/OFuncLib/index.html">OFuncLib</a></h3>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="span9" id="main">
+          
+
+
+
+<h1>TestHelper</h1>
+<div class="xmldoc">
+</div>
+
+<!-- Render nested types and modules, if there are any -->
+
+  <h3>Functions and values</h3>
+  <table class="table table-bordered member-list">
+    <thead>
+      <tr><td>Function or value</td><td>Description</td></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '17', 17)" onmouseover="showTip(event, '17', 17)">
+            shouldBeOk actual
+          </code>
+          <div class="tip" id="17">
+            <strong>Signature:</strong> actual:GenericAttempt&lt;&#39;TOk,string&gt; -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'TOk          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L66-66" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '18', 18)" onmouseover="showTip(event, '18', 18)">
+            shouldEq expected actual
+          </code>
+          <div class="tip" id="18">
+            <strong>Signature:</strong> expected:&#39;T -&gt; actual:&#39;T -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'T          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L57-57" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '19', 19)" onmouseover="showTip(event, '19', 19)">
+            shouldFail actual
+          </code>
+          <div class="tip" id="19">
+            <strong>Signature:</strong> actual:GenericAttempt&lt;&#39;TOk,&#39;TFail&gt; -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'TOk, 'TFail          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L60-60" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '20', 20)" onmouseover="showTip(event, '20', 20)">
+            shouldPass actual
+          </code>
+          <div class="tip" id="20">
+            <strong>Signature:</strong> actual:TestResult -&gt; unit<br />
+                      </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L51-51" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '21', 21)" onmouseover="showTip(event, '21', 21)">
+            testOnData f data
+          </code>
+          <div class="tip" id="21">
+            <strong>Signature:</strong> f:(&#39;T -&gt; TestResult) -&gt; data:List&lt;&#39;T&gt; -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'T          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L72-72" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '22', 22)" onmouseover="showTip(event, '22', 22)">
+            testOnDataLoop aToB bToA data
+          </code>
+          <div class="tip" id="22">
+            <strong>Signature:</strong> aToB:(&#39;A -&gt; GenericAttempt&lt;&#39;B,&#39;TFail&gt;) -&gt; bToA:(&#39;B -&gt; GenericAttempt&lt;&#39;A,&#39;TFail&gt;) -&gt; data:List&lt;&#39;A&gt; -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'A, 'B, 'TFail          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L97-97" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '23', 23)" onmouseover="showTip(event, '23', 23)">
+            testOnDataMap f data
+          </code>
+          <div class="tip" id="23">
+            <strong>Signature:</strong> f:(&#39;A -&gt; &#39;B) -&gt; data:List&lt;&#39;A * &#39;B&gt; -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'A, 'B          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L92-92" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '24', 24)" onmouseover="showTip(event, '24', 24)">
+            testOnDataMapAttempt f data
+          </code>
+          <div class="tip" id="24">
+            <strong>Signature:</strong> f:(&#39;A -&gt; GenericAttempt&lt;&#39;B,&#39;TFail&gt;) -&gt; data:List&lt;&#39;A * &#39;B&gt; -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'A, 'B, 'TFail          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L94-94" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '25', 25)" onmouseover="showTip(event, '25', 25)">
+            testOnDataShouldFail f data
+          </code>
+          <div class="tip" id="25">
+            <strong>Signature:</strong> f:(&#39;A -&gt; GenericAttempt&lt;&#39;TOk,&#39;TFail&gt;) -&gt; data:List&lt;&#39;A&gt; -&gt; unit<br />
+                          <strong>Type parameters:</strong> 'A, 'TOk, 'TFail          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L85-85" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td class="member-name">
+
+          <code onmouseout="hideTip(event, '26', 26)" onmouseover="showTip(event, '26', 26)">
+            tryEq input expected actual
+          </code>
+          <div class="tip" id="26">
+            <strong>Signature:</strong> input:&#39;TInp -&gt; expected:&#39;T -&gt; actual:&#39;T -&gt; TestResult<br />
+                          <strong>Type parameters:</strong> 'TInp, 'T          </div>
+        </td>
+        <td class="xmldoc">
+            <a href="https://github.com/oziegamma/OFuncLib/blob/master/src/TestHelpers.fs#L81-81" class="github-link">
+              <img src="../content/img/github.png" class="normal" />
+              <img src="../content/img/github-blue.png" class="hover" />
+            </a>
+          
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+        </div>
+        <div class="span3">
+          <ul class="nav nav-list" id="menu">
+            <li class="nav-header">OFuncLib</li>
+              <li><a href="../index.html">Home page</a></li>
+              <li class="divider"></li>
+			<li class="nav-header">Legal & Open Source</li>
+			  <li><a href="../LICENSE">LICENSE</a></li>
+			  <li><a href="../CONTRIBUTIONS.md">CONTRIBUTIONS</a></li>
+			  <li><a href="../CONTRIBUTORS.md">CONTRIBUTORS</a></li>
+
+            <li class="nav-header">Reference</li>
+            <li><a href="../apidocs/index.html">API Reference</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/oziegamma/OFuncLib"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+  </body>
+  </html>
