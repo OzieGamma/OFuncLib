@@ -88,7 +88,6 @@ Target "BuildDocs" (fun _ ->
     WriteStringToFile false (docsDir @@ ".nojekyll") ""
 
     CopyDir (docsDir @@ "content") (docsInputDir @@ "content") allFiles
-    CopyDir (docsDir @@ "pics") (docsInputDir @@ "pics") allFiles
 )
 
 Target "ReleaseDocs" (fun _ ->
